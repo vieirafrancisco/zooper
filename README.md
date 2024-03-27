@@ -45,6 +45,18 @@ Likes
 3. Run `yarn install` to install the dependencies.
 4. Run `yarn dev` to start the development server.
 
+## Docker
+
+Build:
+```bash
+docker build -t myapp .
+```
+
+Run:
+```bash
+docker run -d -p 3000:3000 myapp
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
