@@ -22,7 +22,7 @@ const isDark = computed({
         :name="isDark ? 'solar:sun-2-outline' : 'solar:moon-outline'"
         class="w-5 h-5"
       />
-      <span class="sr-only">Toggle theme</span>
+      <span class="sr-only">Tema</span>
     </button>
   </UTooltip>
 </template>
